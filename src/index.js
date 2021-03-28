@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import GenericContainer from "./GenericContainer/GenericContainerHOC";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <GenericContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );
